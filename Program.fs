@@ -3,12 +3,11 @@
 /// How many different ways can we make change of a given amount of money in
 /// Korean coins? Suppose we have 5 different kinds of coins: 500-won coins,
 /// 100-won coins, 50-won coins, 10-won coins, and 1-won coins. Write a function
-/// prob2 that takes in an amount of money in won, and returns the number of
+/// prob1 that takes in an amount of money in won, and returns the number of
 /// possible combinations. For example, when the given amount is 10, then the
-/// function should return 4, because there are 4 different ways to make change
-/// for 10 won: (1) one 10-won, (2) two 5-won, (3) one 5-won and five 1-won, and
-/// (4) ten 1-won. The function should return -1 if an errorneous input is given,
-/// e.g., when negative amount is given.
+/// function should return 2, because there are 2 different ways to make change
+/// for 10 won: (1) one 10-won, and (2) ten 1-won. The function should return -1
+/// if an errorneous input is given, e.g., when negative amount is given.
 let prob1 amount =
   failwith "TODO"
 
