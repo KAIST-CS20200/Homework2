@@ -9,12 +9,12 @@
 /// for 10 won: (1) one 10-won, and (2) ten 1-won. The function should return -1
 /// if an errorneous input is given, e.g., when negative amount is given.
 let prob1 amount =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Write a function `prob2` that computes GCD (Greatest Common Divisor) of two
 /// given integers. This function should return -1 if both inputs are 0.
 let prob2 a b =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Write a function `prob3` that takes in a string s and an integer n, and
 /// returns a string that repeats s for n times. For example, if "abc" and 3 are
@@ -23,21 +23,21 @@ let prob2 a b =
 /// repeats reversed s for -n times. For example, pow "abc" -3 will return
 /// "cbacbacba".
 let prob3 s n =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Write a function `prob4` that takes in an unsigned integer n (uint32), and
 /// returns the smallest integral divisor of n that is greater than 1. For
 /// example, given 45, the function will return 3 (45 % 3 = 0). This function
 /// returns 0 for all error cases, e.g., when the given number is 1u.
 let prob4 (n: uint32) =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 /// Write a function `prob5` that takes in an unsigned integer as input, and
 /// checks if the number is a prime number or not. If the number is prime, then
 /// the function returns true. Otherwise, it returns false. Hint: you can use
 /// the `prob4` function above.
 let prob5 (n: uint32) =
-  failwith "TODO"
+  failwith "TODO" // REMOVE this line when you implement your own code
 
 [<EntryPoint>]
 let main _args =
