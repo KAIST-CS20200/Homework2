@@ -28,7 +28,8 @@ let prob3 s n =
 /// Write a function `prob4` that takes in an unsigned integer n (uint32), and
 /// returns the smallest integral divisor of n that is greater than 1. For
 /// example, given 45, the function will return 3 (45 % 3 = 0). This function
-/// returns 0 for all error cases, e.g., when the given number is 1u.
+/// returns 0 for all error cases, e.g., when the given number is 1u. This
+/// function only considers non-zero numbers as valid inputs.
 let prob4 (n: uint32) =
   failwith "TODO" // REMOVE this line when you implement your own code
 
