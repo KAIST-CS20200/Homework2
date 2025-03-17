@@ -30,7 +30,7 @@ let prob3 s n =
 /// example, given 45, the function will return 3 (45 % 3 = 0). This function
 /// returns 0 for all error cases, e.g., when the given number is 1u.
 /// The function only considers divisors of non-zero numbers.
-/// If n is 0, it is considered an invalid case.
+/// If n is 0, it is considered an error case.
 let prob4 (n: uint32) =
   failwith "TODO" // REMOVE this line when you implement your own code
 
