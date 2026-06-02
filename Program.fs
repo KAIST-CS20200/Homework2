@@ -1,4 +1,4 @@
-﻿module CS220.Program
+module CS220.Program
 
 /// How many different ways can we make change of a given amount of money in
 /// Korean coins? Suppose we have 5 different kinds of coins: 500-won coins,
